@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/bootstrap.min.css">
+    <title>Translator</title>
+</head>
+<body>
+    <br>
+    <h1>Here is translator</h1>
+    <br>
+
+    <form action="" method="post">
+        <p style = 'padding: 20px'>
+            <label style = 'padding-right: 20px;' for="lang">Type translation language:</label>
+            <input style = 'outline:none;' class = 'bg-dark text-white' type = "text" name = "lang">
+            </p>
+        <p style = 'padding: 20px'>
+            <label style = 'padding-right: 20px;' for="text">Type your message:</label>
+            <input style = 'outline:none;' class = 'bg-dark text-white' type = "text" name = "text">
+        </p>
+	    <input style = 'font-family: Times; margin: 0 100px;' class = "btn btn-primary bg-dark text-light" type="submit">
+        <br>
+        <h3>{{attention}}</h3>
+        <h3>{{message}}</h3>
+        </br>
+    </form>
+</body>
+</html>
