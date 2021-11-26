@@ -29,5 +29,5 @@ if __name__ == '__main__':
     translator = Translator()
     translation = translator.translate('HI', dest='ru')
     translated = translation.text
-    print(translated,translation)
+    print(translated, translation)
     app.run()
